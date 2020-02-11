@@ -13,4 +13,4 @@ $body
 EOF
 echo "Sending email to $remail"
 sendmail "$remail" < email.txt
-
+echo "Email sent"
